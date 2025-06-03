@@ -2,6 +2,7 @@ import React from 'react'
 import Container from '../components/Container'
 import Button from '../components/Button'
 import Flex from '../components/Flex'
+import BannerButton from '../components/BannerButton'
 
 const Banner = () => {
   return (
@@ -15,7 +16,7 @@ const Banner = () => {
               changed the way brands and businesses use technology for growing business. </p>
             <Flex className="justify-center gap-x-5 ">
               <Button text="get free quote" className="capitalize"/>
-              <Button text="Learn more" className="capitalize"/>
+              <BannerButton text="learn more" className="capitalize"/>
             </Flex>
           </div>
         </Container>
